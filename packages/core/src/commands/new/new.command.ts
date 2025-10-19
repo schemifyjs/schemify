@@ -1,8 +1,6 @@
 import { ProjectMetadata, NewProjectOptions } from '@schemifyjs/types'
 import { scaffoldApplication } from '@schemifyjs/schematics'
 
-import * as validator from '../../libs/validators/indext.js'
-
 // Definition of Version
 import { buildSchemifyVersions } from '../../utils/options.util.js'
 import { askNewProjectQuestions } from '../../libs/questions/prompts/new-project.prompts.js'
